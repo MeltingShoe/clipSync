@@ -4,7 +4,7 @@ utils to sync clipboard across windows, linux, and iPad
 ### Usage:
 1. Adjust the file path in the AHK script to point to your users documents folder(or anywhere else)
 2. Run the autohotkey script to listen for clipboard updates and update the clipShare.txt file
-3. Make the shortcut shown in shortcut.png to read the contents of the file over ssh
+3. Make the shortcut shown in shortcut.jpeg to read the contents of the file over ssh
 4. Add the shortcut to control center. Now you can copy text on windows and then press the button in control center to copy that to your iPad/iPhone
 
 ##### Copying from Windows to Linux through your iPad
