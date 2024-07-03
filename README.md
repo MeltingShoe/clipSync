@@ -15,7 +15,7 @@ ShellFish includes a .shellfishrc file you can install to give integrations incl
 
 By adding this line to your .bashrc you can use the command `cpWin` to copy your windows system clipboard to your linux system clipboard(if you have xsel and your display working properly):
 ```
-alias cpWin='runShortcut --x-callback cpWinClip | xsel -i && eval "xsel -o"'
+alias cpWin='runShortcut --x-callback cpWinClip | xsel -i && xsel -o'
 ```
 
 And adding this line to your .bashrc give you `exWin` the ultimate command for the lazy! With this you can pull up a guide on your PC with a bunch of commands for setting stuff up on your server, and then after copying a command from the guide you can run exWin to instantly grab the clipboard and run the command on your server! This is probably dumb and you shouldn't just run random code you copied on the internet but I know I'll do it anyway and this makes that very fast:
